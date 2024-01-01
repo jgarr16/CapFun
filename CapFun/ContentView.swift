@@ -15,7 +15,7 @@ struct ContentView: View {
         VStack {
             Text(userText)
                 .font(.largeTitle)
-                .foregroundColor(.red)
+                .foregroundColor(.green)
             
             TextField("Enter text here: ", text: $userText)
                 .padding()
